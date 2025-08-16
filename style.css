@@ -1,0 +1,20 @@
+.container {
+	display: grid;
+	grid-template-columns: 30% 30% 40%;
+	grid-template-rows: 40px auto;
+	gap: 10px;
+}
+
+.header {
+	justify-self: center
+}
+
+.header_topic {}
+
+.header_subtopic {}
+
+.header_content {}
+
+.active {
+	background-color: yellow;
+}
